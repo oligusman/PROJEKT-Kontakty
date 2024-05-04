@@ -42,9 +42,12 @@ p {
 
 @media screen and (min-width: 540px){
 	.kontejner{
-	display: flex;}
+	display: flex;
+	flex-direction: row;
 
-	.sloupec{
+}
+
+.sloupec{
 	flex: 1 1 calc(100% / 2);
 	}
 }
